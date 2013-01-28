@@ -1,0 +1,16 @@
+{
+  "name": "faker-ext",
+  "description": "Additional methods for Faker",
+  "version": "1.0.0",
+  "author": {
+    "name": "Vyacheslav Kotiya",
+    "email": "clexit@clexit.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clexit/faker-ext.git"
+  },
+  "dependencies": {
+    "Faker": "*"
+  }
+}
