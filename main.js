@@ -21,10 +21,10 @@ module.exports = function( Faker ) {
 
         return addZero( Faker.random.number(period) ) + separator + addZero( Faker.random.number(60) ) + ampm;
     }
+
+
+    Faker = require( './address/main' )( Faker );
     
 
     return Faker;
 }
-
-
-//----- HELPERS -----
