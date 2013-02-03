@@ -8,7 +8,7 @@ module.exports = function( Faker ) {
     });
 
     Faker.Address.country.anyContenent = function () {
-        var rndContinent = Faker.random.array_element( continents );
+        var rndContinent = Faker.random.array_element( continents ).replace( /-/gi, '_' );
         return Faker.Address.country[ rndContinent ]();
     };
 
