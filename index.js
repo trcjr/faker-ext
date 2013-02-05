@@ -23,7 +23,7 @@ module.exports = function( Faker ) {
     }
 
 
-    Faker = require( './address/main' )( Faker );
+    Faker = require( './address/index' )( Faker );
     
 
     return Faker;
