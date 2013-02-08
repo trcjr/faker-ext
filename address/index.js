@@ -11,10 +11,10 @@ module.exports = function( Faker ) {
      * temporary alias. shame on me :(
      */
     Faker.Address.country.anyContenent = function () {
-        return 'method renamed to anyContinent';
+        return 'method renamed to any';
     };
 
-    Faker.Address.country.anyContinent = function () {
+    Faker.Address.country.any = function () {
         var rndContinent = Faker.random.array_element( continents ).replace( /-/gi, '_' );
         return Faker.Address.country[ rndContinent ]();
     };
