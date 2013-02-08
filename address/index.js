@@ -7,7 +7,14 @@ module.exports = function( Faker ) {
         Faker = require( './' + continent )( Faker );
     });
 
+    /**
+     * temporary alias. shame on me :(
+     */
     Faker.Address.country.anyContenent = function () {
+        return 'method renamed to anyContinent';
+    };
+
+    Faker.Address.country.anyContinent = function () {
         var rndContinent = Faker.random.array_element( continents ).replace( /-/gi, '_' );
         return Faker.Address.country[ rndContinent ]();
     };
