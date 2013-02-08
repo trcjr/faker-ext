@@ -10,6 +10,7 @@ Additional methods for [Faker.js](https://github.com/marak/Faker.js/).
             <li>country
 
                 <ul>
+                    <li>any</li>
                     <li>africa</li>
                     <li>antarctica</li>
                     <li>asia</li>
@@ -17,7 +18,6 @@ Additional methods for [Faker.js](https://github.com/marak/Faker.js/).
                     <li>north_america</li>
                     <li>south_america</li>
                     <li>oceania</li>
-                    <li>anyContinent</li>
                 </ul>
             </li>
         </ul>
