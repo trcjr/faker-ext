@@ -3,6 +3,9 @@ module.exports = function( Faker ) {
 
     Faker = require( './redefine' )( Faker );
 
+    Faker = require( './address/index' )( Faker );
+    Faker = require( './headline/index' )( Faker );
+
 
     Faker.random.boolean = function() {
         return ( Faker.random.number(2) === 0 ) ? true : false;
@@ -22,9 +25,6 @@ module.exports = function( Faker ) {
         return addZero( Faker.random.number(period) ) + separator + addZero( Faker.random.number(60) ) + ampm;
     }
 
-
-    Faker = require( './address/index' )( Faker );
-    
 
     return Faker;
 }

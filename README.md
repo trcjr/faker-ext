@@ -37,4 +37,11 @@ Additional methods for [Faker.js](https://github.com/marak/Faker.js/).
             <li>time( [options] ) - <code>options</code> is an optional object with a <code>[separator]</code> (string, default is ":") and <code>[period]</code> (number, 12 || 24, default is 24) keys.</li>
         </ul>
     </li>
+    <li>
+        Headline
+
+        <ul>
+            <li>standard - standard length news headline</li>
+        </ul>
+    </li>
 </ul>
