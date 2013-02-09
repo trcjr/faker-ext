@@ -4,7 +4,7 @@ module.exports = function( Faker ) {
     Faker = require( './redefine' )( Faker );
 
     Faker = require( './address/index' )( Faker );
-    Faker = require( './headline/index' )( Faker );
+    Faker = require( './text/index' )( Faker );
 
 
     Faker.random.boolean = function() {

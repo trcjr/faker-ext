@@ -38,10 +38,10 @@ Additional methods for [Faker.js](https://github.com/marak/Faker.js/).
         </ul>
     </li>
     <li>
-        Headline
+        Text
 
         <ul>
-            <li>standard - standard length news headline</li>
+            <li>headline - standard length news headline</li>
         </ul>
     </li>
 </ul>

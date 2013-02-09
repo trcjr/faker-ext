@@ -1,7 +1,7 @@
 {
   "name": "faker-ext",
   "description": "Additional methods for Faker",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": {
     "name": "Vyacheslav Kotiya",
     "email": "clexit@clexit.com"
