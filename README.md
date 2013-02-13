@@ -26,7 +26,7 @@ Additional methods for [Faker.js](https://github.com/marak/Faker.js/).
         Helpers
 
         <ul>
-            <li>randomNumber( max [, min] )</li>
+            <li>randomNumber( range [, min] ) - <a href="https://github.com/Marak/Faker.js/issues/41">range=max-1</a></li>
         </ul>
     </li>
     <li>
