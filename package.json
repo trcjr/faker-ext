@@ -1,7 +1,7 @@
 {
   "name": "faker-ext",
   "description": "Additional methods for Faker",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": {
     "name": "Vyacheslav Kotiya",
     "email": "clexit@clexit.com"
@@ -12,5 +12,17 @@
   },
   "dependencies": {
     "Faker": "*"
-  }
+  },
+  "readme": "faker-ext\r\n=========\r\nAdditional methods for [Faker.js](https://github.com/marak/Faker.js/).\r\n\r\n<ul>\r\n    <li>\r\n        Address\r\n\r\n        <ul>\r\n            <li>country\r\n\r\n                <ul>\r\n                    <li>any</li>\r\n                    <li>africa</li>\r\n                    <li>antarctica</li>\r\n                    <li>asia</li>\r\n                    <li>europe</li>\r\n                    <li>north_america</li>\r\n                    <li>south_america</li>\r\n                    <li>oceania</li>\r\n                </ul>\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        Helpers\r\n\r\n        <ul>\r\n            <li>randomNumber( range [, min] ) - <a href=\"https://github.com/Marak/Faker.js/issues/41\">range=max-1</a></li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        random\r\n\r\n        <ul>\r\n            <li>boolean</li>\r\n            <li>time( [options] ) - <code>options</code> is an optional object with a <code>[separator]</code> (string, default is \":\") and <code>[period]</code> (number, 12 || 24, default is 24) keys.</li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        Text\r\n\r\n        <ul>\r\n            <li>headline - standard length news headline</li>\r\n        </ul>\r\n    </li>\r\n</ul>",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/clexit/faker-ext/issues"
+  },
+  "homepage": "https://github.com/clexit/faker-ext",
+  "_id": "faker-ext@1.0.9",
+  "dist": {
+    "shasum": "c3618b002d9cc5979d167ab81ce17cc712f8a9f6"
+  },
+  "_from": "faker-ext@",
+  "_resolved": "https://registry.npmjs.org/faker-ext/-/faker-ext-1.0.9.tgz"
 }
