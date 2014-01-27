@@ -47,3 +47,6 @@ Additional methods for [Faker.js](https://github.com/marak/Faker.js/).
         </ul>
     </li>
 </ul>
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/clexit/faker-ext/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
